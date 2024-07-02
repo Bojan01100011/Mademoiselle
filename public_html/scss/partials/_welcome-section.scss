@@ -1,0 +1,42 @@
+
+
+.welcome{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 25px;
+    
+    .welcome-item{
+        
+        
+        text-align: center;
+        
+        h2{
+            font-size: 3.0rem;
+            color: white;
+            letter-spacing: 10px;
+            
+        }
+        
+    
+       
+    }
+}
+
+@media(min-width:768px){
+    .welcome{
+         margin-bottom: 75px;
+        .welcome-item{
+            width: 65%;
+            h2{
+                font-size: 6rem;
+                letter-spacing: 20px;
+            }
+        }
+    }
+}

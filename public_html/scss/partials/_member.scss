@@ -1,0 +1,74 @@
+
+$member-color: #ECD9D9;
+
+
+
+.member{
+    
+    margin-bottom: 113px;
+    
+    .section-title{
+        margin: 54px 0 54px 0;
+    }
+    
+    .member-img{
+        margin-top: 54px;
+    }
+    
+    .member-info{
+        margin-top: 55px;
+    }
+    
+    
+    .carousel-indicators li {
+        background-color: $member-color;
+        width: 8px; 
+        height: 8px; 
+        border-radius: 50%; 
+        margin: 5px; 
+}
+    
+    
+    
+}
+
+@media(min-width:960px){
+.member{
+    .member-info{
+        margin-top: 85px;
+    }
+}
+}
+
+/*
+
+<div class="container">
+                <h2 class="section-title text-uppercase">Trust our professionals</h2>
+                <div class="row  border border-4 border-solid ">
+                    <div class="col-12 col-sm-6 col-md-4 offset-md-1">
+                        <figure class="member-img">
+                            <img src="img/home-page/member.png" alt=""/>
+                        </figure>
+                        
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 col-md-4 offset-md-1">
+                        <div class="member-info">
+                            <h2 class="title-p text-uppercase">Vera Valdez</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of
+                                the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy
+                                text ever since the 1500s, when an unknown printer
+                                took a galley of type and scrambled it to make a type specimen book.
+                                It has survived not only five centuries, but also the leap 
+                                into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+*/
+

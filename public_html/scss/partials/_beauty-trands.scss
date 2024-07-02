@@ -1,0 +1,41 @@
+
+
+
+.beauty-trands{
+    
+    .section-title{
+        margin-bottom: 50px;
+    }
+    
+    
+    .trands-item{
+        
+        position: relative;
+        
+        align-items: center;
+        
+         
+        
+        .trands-img{
+            position: relative;
+            
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+        
+        
+        
+        .trands-text{
+            position: absolute;
+            text-align: center;
+            width: 90%;
+            
+            bottom: -13%;
+            left: 5%;
+            background-color: rgb(255,255,255);
+            
+        }
+    }
+}

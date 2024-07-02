@@ -1,0 +1,39 @@
+
+
+
+
+
+.s-single-section{
+    
+    
+    margin: 70px 0 70px 0;
+    
+    .s-single-text{
+        
+        .s-single-h{
+            font-size: 4.4rem;
+            
+            font-family: $lato;
+            margin-bottom: 2.5rem;
+        }
+        
+        
+        .s-single-p{
+            font-size: 1.8rem;
+        }
+    }
+    
+    
+}
+
+.beauty-trands{
+        margin-bottom: 13.5rem;
+    }
+
+
+@media(min-width:768px){
+    
+    .s-single-section{
+        margin: 170px 0 170px 0;
+     }
+}

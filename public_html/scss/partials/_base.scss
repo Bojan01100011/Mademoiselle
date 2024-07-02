@@ -1,0 +1,17 @@
+$base-font: $lato;
+$header-font: $bodoni;
+
+img{
+    max-width: 100%;
+}
+
+
+body{
+    font-family: $base-font;
+    font-weight: $font-weight-light;
+}
+
+
+h2{
+    font-family: $header-font;
+}

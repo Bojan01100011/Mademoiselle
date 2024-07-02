@@ -1,0 +1,50 @@
+.b-single-section{
+    
+    
+    margin: 70px 0 70px 0;
+    
+    .b-single-text{
+        
+        .b-single-h{
+            font-size: 4.4rem;
+            font-family: $lato;
+            margin-bottom: 2.5rem;
+        }
+        
+        
+        .b-single-p{
+            font-size: 2rem;
+        }
+    }
+    
+    
+}
+
+.b-single-text{
+    
+    .b-text-p{
+        font-size: 1.8rem;
+        margin: 52px 0 52px 0;
+        
+    }
+}
+
+.blog-tags{
+    .btn-group{
+        .group-h{
+            margin-top: 25px;
+            font-family: $bodoni;
+        }
+        a{
+            background-color: #F5F5F5;
+        }
+    }
+}
+
+
+@media(min-width:768px){
+    
+    .b-single-section{
+        margin: 170px 0 170px 0;
+     }
+}

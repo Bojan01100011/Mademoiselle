@@ -1,0 +1,39 @@
+@import "partials/_overide-bootstrap.scss";
+@import "../bootstrap/scss/bootstrap.scss";
+
+
+
+// custhom theme partials
+@import "partials/_animations.scss";
+@import "partials/_fonts.scss";
+
+@import "partials/_general.scss";
+
+@import "partials/_base.scss";
+
+
+@import "partials/_header-section.scss";
+
+
+@import "partials/_welcome-section.scss";
+
+@import "partials/_beauty-trands.scss";
+
+
+
+@import "partials/_services-section.scss";
+
+@import "partials/_member.scss";
+
+@import "partials/_footer-section.scss";
+
+@import "partials/_services-single.scss";
+
+@import "partials/_blog-single.scss";
+
+@import "partials/_about.scss";
+
+@import "partials/_eror.scss";
+
+@import "partials/_conctact.scss";
+
